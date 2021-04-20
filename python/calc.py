@@ -5,8 +5,8 @@ class Calc:
         return a + b
 
     def div(self, a, b):
-        # try:
-        #     return a / b
-        # except:
-        #     return "integer division or modulo by zero"
-        return  a / b
+        try:
+            return a / b
+        except:
+            return "integer division or modulo by zero"
+
